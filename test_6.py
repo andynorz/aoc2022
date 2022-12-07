@@ -3,7 +3,7 @@ import aoc22_6
 
 
 class TestCommSystem(unittest.TestCase):
-    def test_commsystem(self):
+    def test_comm4(self):
         inputs = ["bvwbjplbgvbhsrlpgdmjqwftvncz", "nppdvjthqldpwncqszvftbrmjlhg", "nznrnfrfntjfmvfwmzdfjlvtqnbhcprsg", "zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw"]
         self.assertEqual(aoc22_6.main(inputs), [5, 6, 10, 11])
 
